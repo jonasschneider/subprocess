@@ -71,3 +71,11 @@ http://upload.wikimedia.org/wikipedia/commons/3/3e/Unshorn_alpaca_grazing.jpg
   EMAIL
 end
 ```
+
+Ruby 1.8
+--------
+
+Ruby 1.8 is now unsupported upstream, and as a result support for Ruby 1.8 has
+been dropped from Subprocess. If you absolutely must use it on an old Ruby,
+version 1.2.0 is the last supported release; however you should strongly
+consider updating to a Ruby with upstream support.
